@@ -18,5 +18,24 @@ namespace CormenAlgorithms.Ch4DivideNConquer.Tests
             Assert.AreEqual(10, max.Item2);
             Assert.AreEqual(43, max.Item3);
         }
+
+        /// <summary>
+        /// Exercise 4.1-1: What does FIND-MAXIMUM-SUBARRAY return when all elements of A are negative?
+        /// Answer: It returns the maximum value in the array.
+        /// </summary>
+        [TestMethod]
+        public void Test_All_Negative_Values()
+        {
+            int[] A = new int[] { -10, -7, -5, -11, -3, -14 };
+            var sut = new MaximumSubarray();
+
+            var max = sut.FindMaximumSubarray(A, 0, A.Length - 1);
+
+            Assert.AreEqual(4, max.Item1);
+            Assert.AreEqual(4, max.Item2);
+            Assert.AreEqual(-3, max.Item3);
+        }
+
+
     }
 }

@@ -45,13 +45,16 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
     <Compile Include="MaximumSubarrayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MaximumSubarrayNonrecursiveTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CormenAlgorithms.Ch4DivideNConquer\CormenAlgorithms.Ch4DivideNConquer.csproj">
