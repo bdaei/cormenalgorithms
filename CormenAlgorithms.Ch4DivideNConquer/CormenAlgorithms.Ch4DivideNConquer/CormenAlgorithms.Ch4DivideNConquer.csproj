@@ -43,7 +43,14 @@
   <ItemGroup>
     <Compile Include="MaximumSubarray.cs" />
     <Compile Include="MaximumSubarrayNonrecursive.cs" />
+    <Compile Include="MergeSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CormenAlgorithms.Common\CormenAlgorithms.Common\CormenAlgorithms.Common.csproj">
+      <Project>{5b544b97-39f0-4280-a3f2-af1ff0ef4932}</Project>
+      <Name>CormenAlgorithms.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

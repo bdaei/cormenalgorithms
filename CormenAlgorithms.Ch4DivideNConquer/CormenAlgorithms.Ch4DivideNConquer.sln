@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CormenAlgorithms.Ch4DivideN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CormenAlgorithms.Ch4DivideNConquer.Tests", "CormenAlgorithms.Ch4DivideNConquer.Tests\CormenAlgorithms.Ch4DivideNConquer.Tests.csproj", "{CC750E29-C9EE-45A8-AC0F-C15459D47BB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CormenAlgorithms.Common", "..\CormenAlgorithms.Common\CormenAlgorithms.Common\CormenAlgorithms.Common.csproj", "{5B544B97-39F0-4280-A3F2-AF1FF0EF4932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CC750E29-C9EE-45A8-AC0F-C15459D47BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC750E29-C9EE-45A8-AC0F-C15459D47BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC750E29-C9EE-45A8-AC0F-C15459D47BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B544B97-39F0-4280-A3F2-AF1FF0EF4932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B544B97-39F0-4280-A3F2-AF1FF0EF4932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B544B97-39F0-4280-A3F2-AF1FF0EF4932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B544B97-39F0-4280-A3F2-AF1FF0EF4932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
