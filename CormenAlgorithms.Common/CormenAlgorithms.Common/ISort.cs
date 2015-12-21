@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CormenAlgorithms.Ch2GettingStarted
+namespace CormenAlgorithms.Common
 {
     public interface ISort
     {
