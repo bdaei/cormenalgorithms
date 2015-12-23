@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CormenAlgorithms.Ch6Heapsort
 {
-    public class Heap
+    public abstract class Heap
     {
         public int[] Array { get; set; }
         public int HeapSize { get; set; }
